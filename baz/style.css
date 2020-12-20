@@ -1,0 +1,106 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box-container {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.box-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box {
+    margin-right: 30px;
+}
+
+.span {
+    border: 1px solid blueviolet;
+}
+
+.col {
+    float: left;
+    color: white;
+}
+
+.title-container {
+    display: flex;
+}
+
+.titleleft {
+    background-color: darkblue;
+    width: 15%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.titleright {
+    background-color: red;
+    text-align: left;
+    width: 85%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleright h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titleright .searchbox {
+    background-color: red;
+    border: 1px solid white;
+    opacity: 0.6;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+}
+
+.titlenav {
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color:black;
+    margin: 75px -10px 0px -10px;
+    line-height: 3em;
+
+}
+
+.bigbox {
+    border-style: groove;
+    border-color: lightgray;
+    background-color: white;
+    width: 80%;
+    height: 360px;
+    margin-top: 40px;
+}
+
+.mainleft {
+    width: 60%;
+}
+
+.mainright {
+    color:black;
+    text-align: center;
+    width: 40%;
+}
+
+button {
+    background-color: red;
+    color:white;
+
+}
